@@ -34,7 +34,8 @@ class Deck {
     let colorMap = {diamonds: 'red', hearts: 'red', spades: 'black', clubs: 'black'}
     // insertNumericCards()
     // insertRoyalCards()
-    
+    // giveCard()
+    // giveHand()
   }
 }
 
@@ -43,5 +44,20 @@ class Card {
     this.name = name;
     this.suit = suit;
     this.color = color;
+    this.owner = null;
+    // setOwner()
+    // removeOwner()
   }
+}
+
+class Person {
+  constructor(name) {
+    this.name = name
+    this.hand = []
+  }
+  
+  // addToHand()
+  // resetHand()
+  // removeFromHand()
+
 }
