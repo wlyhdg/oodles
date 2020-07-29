@@ -27,3 +27,21 @@ special cases:
 _ Ace being 1 or 11
 _ Joker being included
 */
+
+class Deck {
+  constructor() {
+    this.deck = [];
+    let colorMap = {diamonds: 'red', hearts: 'red', spades: 'black', clubs: 'black'}
+    // insertNumericCards()
+    // insertRoyalCards()
+    
+  }
+}
+
+class Card {
+  constructor(name, suit, color) {
+    this.name = name;
+    this.suit = suit;
+    this.color = color;
+  }
+}
